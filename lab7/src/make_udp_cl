@@ -1,0 +1,3 @@
+CC=gcc
+udpclient: udpclient.c
+	$(CC) -o udpclient udpclient.c

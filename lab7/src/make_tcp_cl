@@ -1,0 +1,3 @@
+CC=gcc
+tcpclient: tcpclient.c
+	$(CC) -o tcpclient tcpclient.c

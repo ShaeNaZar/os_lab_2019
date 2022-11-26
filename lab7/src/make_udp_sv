@@ -1,0 +1,3 @@
+CC=gcc
+udpserver: udpserver.c
+	$(CC) -o udpserver udpserver.c

@@ -1,0 +1,3 @@
+CC=gcc
+tcpserver: tcpserver.c
+	$(CC) -o tcpserver tcpserver.c
